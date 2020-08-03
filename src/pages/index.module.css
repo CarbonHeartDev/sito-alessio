@@ -1,0 +1,17 @@
+.sections {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  width: 100wv;
+}
+
+@media (max-width: 999px) {
+  .sections {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media (max-width: 666px) {
+  .sections {
+    grid-template-columns: 100%;
+  }
+}

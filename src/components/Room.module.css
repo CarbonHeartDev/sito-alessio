@@ -1,0 +1,29 @@
+.room {
+  width: calc(98vw - 30px);
+  background-color: var(--blue-munsell-transparent);
+  border-radius: 15px;
+  padding: 15px;
+  margin-left: 1vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.text {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.pics {
+  padding: 10px;
+}
+
+@media (max-width: 1000px) {
+  .content {
+    grid-template-columns: 100%;
+  }
+}

@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Fondamento&display=swap");
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0px;
+}
+
+:root {
+  --medium-purple: #a682ff;
+  --medium-slate-blue: #715aff;
+  --blue-munsell: #009fb7;
+  --blue-munsell-transparent: rgba(0, 159, 183, 0.5);
+  --russian-violet: #34113f;
+  --davys-grey: #605b56;
+  background-image: url("../images/paganella-dolomiti-di-brenta-4289.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "Recursive";
+}

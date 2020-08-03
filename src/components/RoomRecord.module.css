@@ -1,0 +1,43 @@
+.room {
+  width: calc(98vw - 30px);
+  padding: 15px;
+  background-color: var(--blue-munsell-transparent);
+  display: grid;
+  grid-template-columns: calc(100% - 300px - 10px) 300px;
+  border-radius: 15px;
+  column-gap: 10px;
+  margin-left: 1vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.image {
+  height: 100%;
+}
+
+.texts {
+  justify-self: left;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.description {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .room {
+    grid-template-columns: 100%;
+  }
+  .title {
+    text-align: center;
+  }
+  .image {
+    display: flex;
+    justify-content: center;
+  }
+}

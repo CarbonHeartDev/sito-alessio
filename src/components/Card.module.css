@@ -1,0 +1,55 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  align-items: center;
+  background-color: var(--blue-munsell-transparent);
+  border: 1px solid var(--medium-slate-blue);
+  margin: 30px;
+  font-family: "Recursive";
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+}
+
+.title {
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.pic {
+  width: 99%;
+  text-align: center;
+}
+
+.description {
+  width: 100%;
+  overflow: hidden;
+  font-size: 17px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.contacts {
+  display: flex;
+}
+
+@media (min-width: 667px) {
+  .description {
+    height: 200px;
+  }
+}

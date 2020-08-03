@@ -1,0 +1,115 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--medium-slate-blue);
+  height: 100px;
+  width: 100vw;
+}
+
+.logo {
+  height: 90%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nameContainer {
+  display: grid;
+  grid-template-rows: 100%;
+}
+
+.name {
+  font-family: "Fondamento", cursive;
+  font-size: 40px;
+  color: black;
+  display: block;
+  text-align: center;
+}
+
+.container {
+  height: calc(100vh - 100px - 50px);
+  overflow: auto;
+}
+
+.footer {
+  background-color: var(--medium-slate-blue);
+  height: 50px;
+  font-family: "arrow";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.homeButton {
+  font-size: 30px;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactElement {
+  font-size: 20px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-right: 10px;
+}
+
+.contactText {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .name {
+    font-size: 40px;
+  }
+  .emailAddress {
+    display: none;
+  }
+  .emailSection {
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .name {
+    font-size: 30px;
+  }
+  .phoneNumber {
+    display: none;
+  }
+  .phoneSection {
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 415px) {
+  .name {
+    font-size: 20px;
+  }
+}
